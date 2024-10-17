@@ -1,4 +1,4 @@
-python==
-pandas==
-streamlit==
-Requests==
+python==3.12.7
+pandas==2.2.3
+streamlit==1.39.0
+Requests==2.32.3
