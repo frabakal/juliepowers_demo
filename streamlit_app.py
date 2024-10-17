@@ -1,5 +1,15 @@
 import streamlit as st
 
+# --- HIDE STREAMLIT NAME ---
+hide_st_style = """
+            <style>
+            #MaineMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """ 
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # --- PAGE SETUP ---
 about_page = st.Page(
     page="views/about_me.py",
